@@ -1,13 +1,11 @@
 {
   "name": "testing",
   "version": "1.0.0",
-  "description": "Testing out mocha, chai, sinon, and karma w/ Webpack",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "build": "webpack --progress",
+    "test": "NODE_ENV=testing karma start --single-run"
   },
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
