@@ -21,7 +21,8 @@
         "filea": this.filea
       });
 
-      // Attaches spy to our mocked this.filea. This exposes methods like calledOnce (see last test).
+      // Attaches spy to our mocked this.filea. This exposes methods like
+      // calledOnce (see last test).
       sinon.spy(this.filea, "getSpecialValue");
     });
 
