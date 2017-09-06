@@ -1,5 +1,6 @@
 describe("entry", function() {
 
+  // So this actually doesn't work...
   beforeEach(function() {
     // When called, returns a new version of filea's exports with mocks in
     // place where we specify.
