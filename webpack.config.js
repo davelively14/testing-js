@@ -39,7 +39,7 @@ module.exports = {
   // and ﬁle­name. pathinfo sim­ply in­cludes com­ments about which ﬁle a
   // import->require con­verted state­ment refers to.
   output: {
-    path: "./dist",
+    path: path.resolve(__dirname, "./dist"),
     filename: "script.js",
     pathinfo: true
   },
